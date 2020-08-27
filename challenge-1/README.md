@@ -1,9 +1,5 @@
-# Informações do desafio
+# Challenge Information
 
-Durante toda a Maratona utilizaremos containers como base de desenvolvimento bem como para produção. Logo, ter uma noção básica de Docker é mais do que necessário.
+In this challenge you will perform the get started available on the official Keycloak website. The main idea is to run the keycloak using a docker on your computer creating a new realm, a client and a user. The keycloak client will be a SPA that is available at: https://www.keycloak.org/app/.
 
-Nesse desafio, você terá de criar uma imagem docker que quando executada deverá expor a porta 8080 exibindo a mensagem: Eu sou Full Cycle.
-Fique na liberdade para utilizar a tecnologia/linguagem de programação de sua escolha. Exemplo: você poderá criar uma simples aplicação usando Node.js com Express para exibir essa mensagem.
-Gere o build da sua imagem, faça o push para o DockerHub e a informe no formulário abaixo.
-
-Se você nunca teve nenhuma experiência com docker, recomendamos que assista a seguinte aula: https://www.youtube.com/watch?v=yb2udL9GG2U
+The main idea is to be able to authenticate your user using this SPA. To do this, follow this step by step: https://www.keycloak.org/getting-started/getting-started-docker.
