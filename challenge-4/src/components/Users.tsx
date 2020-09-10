@@ -8,11 +8,7 @@ interface User {
   last_name: string;
 }
 
-type Props = {
-
-};
-
-export const Users = (props: Props) => {
+export const Users = () => {
   const [ users, setUsers ] = useState<User[]>([]);
 
   useEffect(() => {
